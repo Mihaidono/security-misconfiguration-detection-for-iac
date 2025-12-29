@@ -1,0 +1,46 @@
+=== Drift Report ===
+Total Resources: 19
+Anomalous Resources: 2
+
+[aws_vpc] (1 resources)
+  - main (test_tf.tf): OK → Configuration looks normal
+
+[aws_internet_gateway] (1 resources)
+  - igw (test_tf.tf): OK → Configuration looks normal
+
+[aws_subnet] (4 resources)
+  - public_a (test_tf.tf): OK → Configuration looks normal
+  - public_b (test_tf.tf): OK → Configuration looks normal
+  - private_a (test_tf.tf): OK → Configuration looks normal
+  - private_b (test_tf.tf): OK → Configuration looks normal
+
+[aws_route_table] (1 resources)
+  - public (test_tf.tf): OK → Configuration looks normal
+
+[aws_route_table_association] (2 resources)
+  - public_a (test_tf.tf): OK → Configuration looks normal
+  - public_b (test_tf.tf): OK → Configuration looks normal
+
+[aws_security_group] (2 resources)
+  - web_sg (test_tf.tf): ANOMALY → Potential anomaly, review recommended
+  - db_sg (test_tf.tf): ANOMALY → Potential anomaly, review recommended
+
+[aws_instance] (2 resources)
+  - web_1 (test_tf.tf): OK → Configuration looks normal
+  - web_2 (test_tf.tf): OK → Configuration looks normal
+
+[aws_db_instance] (1 resources)
+  - app_db (test_tf.tf): OK → Configuration looks normal
+
+[aws_s3_bucket] (2 resources)
+  - logs (test_tf.tf): OK → Configuration looks normal
+  - uploads (test_tf.tf): OK → Configuration looks normal
+
+[aws_iam_role] (1 resources)
+  - lambda_role (test_tf.tf): OK → Configuration looks normal
+
+[aws_iam_role_policy_attachment] (1 resources)
+  - lambda_attach (test_tf.tf): OK → Configuration looks normal
+
+[aws_lambda_function] (1 resources)
+  - processor (test_tf.tf): OK → Configuration looks normal

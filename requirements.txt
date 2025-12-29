@@ -4,3 +4,4 @@ scikit-learn
 gitpython
 joblib
 pytest
+colorama
