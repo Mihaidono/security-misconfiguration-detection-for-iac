@@ -2,7 +2,6 @@ from unittest import mock
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import IsolationForest
 
-# Import your modules
 import baseline_training
 import drift_detection
 import feature_extraction as fe
@@ -121,7 +120,7 @@ def test_prepare_matrix_drift():
 
 
 # --------------------------
-# Optional: test training and scaling pipeline
+# Test training and scaling pipeline
 # --------------------------
 def test_training_pipeline():
     resources = {"r1": {"features": {"a": 1, "b": 2}}, "r2": {"features": {"b": 3, "c": 4}}}
