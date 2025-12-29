@@ -1,0 +1,373 @@
+[
+  {
+    "resource_id": "aws_s3_bucket::main.tf::this",
+    "type": "aws_s3_bucket",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_directory_bucket::main.tf::this",
+    "type": "aws_s3_directory_bucket",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_logging::main.tf::this",
+    "type": "aws_s3_bucket_logging",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_acl::main.tf::this",
+    "type": "aws_s3_bucket_acl",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_website_configuration::main.tf::this",
+    "type": "aws_s3_bucket_website_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_versioning::main.tf::this",
+    "type": "aws_s3_bucket_versioning",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_server_side_encryption_configuration::main.tf::this",
+    "type": "aws_s3_bucket_server_side_encryption_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_accelerate_configuration::main.tf::this",
+    "type": "aws_s3_bucket_accelerate_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_request_payment_configuration::main.tf::this",
+    "type": "aws_s3_bucket_request_payment_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_cors_configuration::main.tf::this",
+    "type": "aws_s3_bucket_cors_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_lifecycle_configuration::main.tf::this",
+    "type": "aws_s3_bucket_lifecycle_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_object_lock_configuration::main.tf::this",
+    "type": "aws_s3_bucket_object_lock_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_replication_configuration::main.tf::this",
+    "type": "aws_s3_bucket_replication_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_policy::main.tf::this",
+    "type": "aws_s3_bucket_policy",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_public_access_block::main.tf::this",
+    "type": "aws_s3_bucket_public_access_block",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_ownership_controls::main.tf::this",
+    "type": "aws_s3_bucket_ownership_controls",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_intelligent_tiering_configuration::main.tf::this",
+    "type": "aws_s3_bucket_intelligent_tiering_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_metric::main.tf::this",
+    "type": "aws_s3_bucket_metric",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_inventory::main.tf::this",
+    "type": "aws_s3_bucket_inventory",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_analytics_configuration::main.tf::this",
+    "type": "aws_s3_bucket_analytics_configuration",
+    "file": "main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_object::modules/object/main.tf::this",
+    "type": "aws_s3_object",
+    "file": "modules/object/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_bucket_notification::modules/notification/main.tf::this",
+    "type": "aws_s3_bucket_notification",
+    "file": "modules/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_lambda_permission::modules/notification/main.tf::allow",
+    "type": "aws_lambda_permission",
+    "file": "modules/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_sqs_queue_policy::modules/notification/main.tf::allow",
+    "type": "aws_sqs_queue_policy",
+    "file": "modules/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_sns_topic_policy::modules/notification/main.tf::allow",
+    "type": "aws_sns_topic_policy",
+    "file": "modules/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3_account_public_access_block::modules/account-public-access/main.tf::this",
+    "type": "aws_s3_account_public_access_block",
+    "file": "modules/account-public-access/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3tables_table_bucket::modules/table-bucket/main.tf::this",
+    "type": "aws_s3tables_table_bucket",
+    "file": "modules/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3tables_table_bucket_policy::modules/table-bucket/main.tf::this",
+    "type": "aws_s3tables_table_bucket_policy",
+    "file": "modules/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3tables_table::modules/table-bucket/main.tf::this",
+    "type": "aws_s3tables_table",
+    "file": "modules/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3tables_table_policy::modules/table-bucket/main.tf::this",
+    "type": "aws_s3tables_table_policy",
+    "file": "modules/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/directory-bucket/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/directory-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_kms_key::examples/directory-bucket/main.tf::objects",
+    "type": "aws_kms_key",
+    "file": "examples/directory-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/complete-legacy/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/complete-legacy/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_kms_key::examples/complete-legacy/main.tf::objects",
+    "type": "aws_kms_key",
+    "file": "examples/complete-legacy/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_iam_role::examples/complete-legacy/main.tf::this",
+    "type": "aws_iam_role",
+    "file": "examples/complete-legacy/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/object/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/object/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_kms_key::examples/object/main.tf::this",
+    "type": "aws_kms_key",
+    "file": "examples/object/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/complete/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/complete/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_kms_key::examples/complete/main.tf::objects",
+    "type": "aws_kms_key",
+    "file": "examples/complete/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_iam_role::examples/complete/main.tf::this",
+    "type": "aws_iam_role",
+    "file": "examples/complete/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_iam_role::examples/s3-replication/iam.tf::replication",
+    "type": "aws_iam_role",
+    "file": "examples/s3-replication/iam.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_iam_policy::examples/s3-replication/iam.tf::replication",
+    "type": "aws_iam_policy",
+    "file": "examples/s3-replication/iam.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_iam_policy_attachment::examples/s3-replication/iam.tf::replication",
+    "type": "aws_iam_policy_attachment",
+    "file": "examples/s3-replication/iam.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/s3-replication/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/s3-replication/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_kms_key::examples/s3-replication/main.tf::replica",
+    "type": "aws_kms_key",
+    "file": "examples/s3-replication/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/notification/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "null_resource::examples/notification/main.tf::download_package",
+    "type": "null_resource",
+    "file": "examples/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_sqs_queue::examples/notification/main.tf::this",
+    "type": "aws_sqs_queue",
+    "file": "examples/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_sqs_queue_policy::examples/notification/main.tf::allow_external",
+    "type": "aws_sqs_queue_policy",
+    "file": "examples/notification/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/table-bucket/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "aws_s3tables_namespace::examples/table-bucket/main.tf::namespace",
+    "type": "aws_s3tables_namespace",
+    "file": "examples/table-bucket/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/s3-analytics/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/s3-analytics/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  },
+  {
+    "resource_id": "random_pet::examples/s3-inventory/main.tf::this",
+    "type": "random_pet",
+    "file": "examples/s3-inventory/main.tf",
+    "anomaly_score": 0.0,
+    "anomalous": false
+  }
+]
