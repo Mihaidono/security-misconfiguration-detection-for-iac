@@ -1,0 +1,2 @@
+python ./baseline_training.py --repo https://github.com/Mihaidono/security-misconfiguration-detection-for-iac --sha cb7ae728db0022e8cd6054d9023c5ef5c359009b 
+python ./drift_detection.py --repo https://github.com/Mihaidono/security-misconfiguration-detection-for-iac --sha 0b7767af64d1e9087bb1061494fc8c87be871de2 
